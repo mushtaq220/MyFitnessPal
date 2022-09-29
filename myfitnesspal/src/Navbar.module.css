@@ -1,18 +1,19 @@
-.Navbar1{
+.Navbar1 {
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
 }
-.Navbar1>div+div{
+.Navbar1 > div + div {
   /* border: 1px solid rebeccapurple; */
   display: flex;
   align-items: center;
   gap: 15px;
   font-weight: bold;
 }
-.Navbar2{
+.Navbar2 {
   /* border: 1px solid red; */
   display: flex;
   padding-left: 16.5rem;
   background-color: blue;
+  cursor: pointer;
 }
