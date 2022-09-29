@@ -1,12 +1,15 @@
-.FirstHeading{
+.Heading{
     /* border: 1px solid red; */
     width: 38%;
     display: block;
     margin: auto;
+    margin-top: 60px;
 }
-.FirstHeading>h1{
+.Heading>h1{
     /* border: 1px solid tomato; */
     text-align: center;
+    font-weight: 900;
+    font-size: 45px;
 }
 .Tools{
     /* border: 1px solid red; */
@@ -35,8 +38,64 @@
     background-color: rgb(71, 71, 242);
     font-weight: bold;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 .btn:hover{
     background-color: rgb(19, 19, 209);
+}
+/* carousel */
+.Carousel{
+    /* border: 1px solid teal; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+.Carousel>img{
+    height: 95%;
+    width: 95%;
+    margin: auto;
+}
+/* carousel */
+.Recipes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+.Recipes div{
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    width: 20%;
+    height: 30%;
+}
+.Recipes>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Recipes p{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+.Recipes h3{
+    text-align: center;
+}
+.Apps{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: auto;
+}
+.Apps>img{
+    width: 100%;
+}
+.AppsStore{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
 }
