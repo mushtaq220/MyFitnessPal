@@ -1,0 +1,42 @@
+.FirstHeading{
+    /* border: 1px solid red; */
+    width: 38%;
+    display: block;
+    margin: auto;
+}
+.FirstHeading>h1{
+    /* border: 1px solid tomato; */
+    text-align: center;
+}
+.Tools{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+.Tools>div{
+    /* border: 1px solid teal; */
+    width: 15%;
+}
+.Tools img{
+    display: block;
+    margin: auto;
+}
+.Tools h3,p{
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(71, 71, 242);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(19, 19, 209);
+}
