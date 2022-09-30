@@ -1,0 +1,36 @@
+.Form {
+  /* border: 1px solid red; */
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+}
+.Form > div {
+  /* border: 1px solid teal; */
+  padding: 20px;
+  width: 90%;
+  height: 465px;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Form input {
+  width: 80%;
+  height: 3rem;
+  border-color: rgb(240, 231, 231);
+  border-width: 0.01rem;
+  border-radius: 5px;
+  margin-left: 2.2rem;
+}
+.Form h3 {
+  text-align: center;
+}
+.Form p {
+  color: blue;
+  margin-right: 13.5rem;
+}
+.Form p + input {
+  background-color: rgb(62, 62, 243);
+  color: white;
+  font-weight: bold;
+}
