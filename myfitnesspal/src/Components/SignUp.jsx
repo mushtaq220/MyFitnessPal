@@ -14,6 +14,7 @@ function SignUp() {
     );
     signUpAr.push(obj);
     localStorage.setItem("user", JSON.stringify(signUpAr));
+    alert("Sign Up Successful!");
   };
   class User {
     constructor(n, e, p) {
@@ -23,15 +24,19 @@ function SignUp() {
     }
   }
   return (
-    <div className={styles.SignUp}>
-      <h3>Member Sign Up</h3>
-      <form onSubmit={handleSubmit}>
-        <input placeholder="Name" type="text" ref={name} />
-        <input placeholder="Email Address" type="email" ref={email} />
-        <input placeholder="Password" type="password" ref={password} />
-        <p>Forgot password?</p>
-        <input type="submit" value="SIGN UP" />
-      </form>
+    <div className={styles.Form}>
+      <div>
+        <h3>Member Sign Up</h3>
+        <form onSubmit={handleSubmit}>
+          <input placeholder="Name" type="text" ref={name} />
+          <br />
+          <input placeholder="Email Address" type="email" ref={email} />
+          <br />
+          <input placeholder="Password" type="password" ref={password} />
+          <p>Forgot password?</p>
+          <input type="submit" value="SIGN UP" />
+        </form>
+      </div>
     </div>
   );
 }

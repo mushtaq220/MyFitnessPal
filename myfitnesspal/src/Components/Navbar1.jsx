@@ -17,7 +17,9 @@ function Navbar1() {
         <Link style={style} to="/login">
           Log In
         </Link>
-        <Link style={style} to="/signup">Sign Up</Link>
+        <Link style={style} to="/signup">
+          Sign Up
+        </Link>
       </div>
     </div>
   );
