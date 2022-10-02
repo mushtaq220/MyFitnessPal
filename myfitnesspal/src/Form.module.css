@@ -33,4 +33,8 @@
   background-color: rgb(62, 62, 243);
   color: white;
   font-weight: bold;
+  cursor: pointer;
+}
+.Form p + input:hover{
+    background-color: rgb(28, 28, 192);
 }
